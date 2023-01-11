@@ -1,36 +1,39 @@
 import {Link} from 'react-router-dom'
 import React from 'react'
+import '../components/css/App.css'
+
 function Nav(){
     return(
         <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-light rounded" aria-label="Tenth navbar example">
-    <div className="container-fluid">
-    
+      <nav className=" navbar navbar-expand-lg navbar-dark bg-dark  ">
+<div className="container-fluid">
+ <a  className="brand " > <Link className=" logo" to={"/"}>Sushi </Link></a>
+<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+<span className="navbar-toggler-icon"></span>
+</button>
+    <div className='list-center'>
+<ul className="navbar-nav pl-md-5 ml-auto">
+<li className="item">
+<a className="nav-link active" ><Link  className=" link"to={"#"}>INFO </Link></a>
+</li>
+<li className="item">
+<a className="nav-link" ><Link  className=" link"to={"#"}>MENU </Link></a>
+</li>
 
-      <div className="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-        <ul className="navbar-nav">
-          <li className="nav-item">
-         <Link to={"/"}>Home</Link>
-          </li>
-          
-          {/* <li className="nav-item">
-           <Link to={"/blog/posts/add"}>Add post</Link>
-            </li>
-            <li className="nav-item">
-           <Link to={"/blog/login"}>SignIn</Link>
-           </li>
-           <li className="nav-item">
-             <Link to={"/blog/register"}>SignUp</Link>
-             </li>
-             <li className="nav-item">
-             <Link to={"/blog/profile"}>Profile</Link>
-             </li> */}
-        
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
+<li className="item">
+<a className="nav-link" ><Link className=" link"to={"#"}>GALLERY </Link></a>
+</li>
+<li className="item">
+<a className="nav-link" ><Link className=" link"to={"#"}>PRESS</Link></a>
+</li>
+</ul>
+</div>
+<div className="navbar-nav ml-auto">
+<h4 className='nav-right'>ORDER ONLINE</h4>
+</div>
+</div>
+
+</nav>
         </>
     )
 }

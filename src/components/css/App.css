@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&family=Life+Savers&family=Maven+Pro&display=swap'); 
+
+.brand {
+text-decoration: none;
+}
+.list-center{
+  display: flex;
+  align-items: center;
+  
+}
+.item{
+  font-family: Maven Pro;
+}
+.nav-right{
+  color: white;
+  font-family: Maven Pro;
+  font-size: 15px;
+  padding-right: 2em;
+}
+.link{
+  color: white;
+  text-decoration: none;
+
+}
+.logo{
+  color: white;
+  text-decoration: none;
+  font-family: Charmonman;
+   font-size: 20px;
+}
