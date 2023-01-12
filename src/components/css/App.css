@@ -1,6 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Charmonman&family=Life+Savers&family=Maven+Pro&display=swap'); 
 
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+	/* overflow-x: hidden; */
+  /* overflow-y: hidden ; */
+}
 .brand {
 text-decoration: none;
 }
@@ -28,4 +36,9 @@ text-decoration: none;
   text-decoration: none;
   font-family: Charmonman;
    font-size: 20px;
+}
+
+.sec-image{
+  max-width: 100%;
+  object-fit: cover;
 }

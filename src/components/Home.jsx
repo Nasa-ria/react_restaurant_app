@@ -1,10 +1,14 @@
+
+import '../components/css/App.css'
+
+
 function Home(){
     return(
         <>
-        <img src=""/>
+  
+       
+        {/* <img className="sec-image"src={photo} alt="#" /> */}
         </>
-             
-             
              )
          }
          export default Home;

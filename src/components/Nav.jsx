@@ -1,11 +1,13 @@
 import {Link} from 'react-router-dom'
 import React from 'react'
 import '../components/css/App.css'
+import photo from "../images/photo.jpg";
 
 function Nav(){
     return(
         <>
-      <nav className=" navbar navbar-expand-lg navbar-dark bg-dark  ">
+     
+      <nav className=" navbar navbar-expand-lg navbar-dark bg-dark  fixed-top  ">
 <div className="container-fluid">
  <a  className="brand " > <Link className=" logo" to={"/"}>Sushi </Link></a>
 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,6 +36,11 @@ function Nav(){
 </div>
 
 </nav>
+
+<div className="sec-image">
+        <img className="sec-image"src={photo} alt="#" />
+ 
+        </div>
         </>
     )
 }
