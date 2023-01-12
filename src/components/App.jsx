@@ -2,8 +2,9 @@
 import{BrowserRouter, Routes, Route} from "react-router-dom"
 import Home from "./Home"
 import Nav from "./Nav";
+import Footer from "./Footer";
 
-import {useState,useContext} from "react"
+// import {useState,useContext} from "react"
 
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
         </div>
     
       </main>
-  
+        <Footer/>
       {/* </AuthContext.Provider> */}
       </BrowserRouter>
       

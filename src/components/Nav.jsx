@@ -7,26 +7,26 @@ function Nav(){
     return(
         <>
      
-      <nav className=" navbar navbar-expand-lg navbar-dark bg-dark  fixed-top  ">
+      <nav className=" navbar navbar-expand-lg  fixed-top navbar-dark bg-dark   ">
 <div className="container-fluid">
- <a  className="brand " > <Link className=" logo" to={"/"}>Sushi </Link></a>
+ <a  className="brand "  href='#'> <Link className=" logo" to={"/"}>Sushi </Link></a>
 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
 <span className="navbar-toggler-icon"></span>
 </button>
     <div className='list-center'>
 <ul className="navbar-nav pl-md-5 ml-auto">
 <li className="item">
-<a className="nav-link active" ><Link  className=" link"to={"#"}>INFO </Link></a>
+<a className="nav-link active" href='#' ><Link  className=" link"to={"#"}>INFO </Link></a>
 </li>
 <li className="item">
-<a className="nav-link" ><Link  className=" link"to={"#"}>MENU </Link></a>
+<a className="nav-link"  href='#'><Link  className=" link"to={"#"}>MENU </Link></a>
 </li>
 
 <li className="item">
-<a className="nav-link" ><Link className=" link"to={"#"}>GALLERY </Link></a>
+<a className="nav-link" href='#' ><Link className=" link"to={"#"}>GALLERY </Link></a>
 </li>
 <li className="item">
-<a className="nav-link" ><Link className=" link"to={"#"}>PRESS</Link></a>
+<a className="nav-link" href='#'><Link className=" link"to={"#"}>PRESS</Link></a>
 </li>
 </ul>
 </div>
