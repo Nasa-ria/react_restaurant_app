@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Charmonman&family=Life+Savers&family=Maven+Pro&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Charmonman&family=Life+Savers&family=Maven+Pro&display=swap'); 
 
 
 * {
@@ -9,6 +9,7 @@
 	/* overflow-x: hidden; */
   /* overflow-y: hidden ; */
 }
+/* nav */
 .brand {
 text-decoration: none;
 }
@@ -19,6 +20,7 @@ text-decoration: none;
 }
 .item{
   font-family: Maven Pro;
+  font-weight: lighter;
 }
 .nav-right{
   color: white;
@@ -37,8 +39,82 @@ text-decoration: none;
   font-family: Charmonman;
    font-size: 20px;
 }
+/* first section  */
 
-.sec-image{
+.image{
   max-width: 100%;
-  object-fit: cover;
+  height: 10%;
+  /* object-fit: cover; */
+}
+/* second section */
+.man-image{
+  max-width: 39em
+}
+.paragraph{
+  /* display: flex; */
+  font-size: 19px;
+  font-family: life+saver;
+  font-size: small;
+  margin-top: 3em;
+  width: 30em;
+
+
+}
+.flex{
+display: flex;
+flex-direction: row;
+gap: 3em;
+margin-left: 11em;
+}
+.heading{
+  display: flex;
+  align-items: center;
+  margin-left: 12em;
+  font-family:Aboreto;
+  /* font-family: Lato,sans-serif; */
+  font-size: 50px;
+  margin-bottom: 1em;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  font-weight:lighter;
+  padding-bottom: 5px;
+}
+.title{
+font-weight: bold;
+font-size:20px ;
+letter-spacing: 0.1em;
+/* margin-top: 3em; */
+}
+/* section 2 */ 
+ .info_section{
+  background-image:url(../../images/Raku.webp) ;
+  background-repeat: repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  background-size: contain;
+
+} 
+/* .back-image{
+  width: 100%;
+  margin-right: 1em;
+} */
+.image-info{
+  width: 1em;
+}
+.info_heading{
+  margin-top: 5em;
+  color: white;
+  margin-left: 15em;
+  font-family: Aboreto;
+  font-size:35px ;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+.info_supheading{
+  margin-left: 20em;
+  /* margin-bottom: 38em; */
+  font-size:17px;
+  text-decoration:italic;
+  color:rgb(146, 150, 150);
+  font-weight: 100;
 }

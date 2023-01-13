@@ -37,8 +37,8 @@ function Nav(){
 
 </nav>
 
-<div className="sec-image">
-        <img className="sec-image"src={photo} alt="#" />
+<div className='sec1' >
+        <img className="image"src={photo} alt="#" />
  
         </div>
         </>
