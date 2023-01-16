@@ -85,17 +85,17 @@ function Home(){
         <div className='press'>
             <h3 className='press_topic'>PRESS</h3>
             <div className='press_notes'>
-            <p className='press_info'>"30 Restaurants That Are Worth <br/> <span className='break'>The Wait In NYC"</span>
+            <p className='press_info'>"Lorem Ipsum has been the<br/> <span className='break'>industry's standard  "</span>
              <br/><span><img src ={yelp} alt="logo"   style={{width:"5em",marginLeft:"4em"}}/></span></p>
 
-           <p className='press_info'>"You can't go wrong on the Raku <br/>menu, but you should start with <br/>one of the simpler udons on a first <br/><span className='break'>visit."</span> 
+           <p className='press_info'>"It is a long established fact that a reader <br/>will be distracted by the readable <br/>content of a page when looking at its  <br/><span className='break'>layout"</span> 
              <br/><span><img src ={Eater} alt="logo"   style={{width:"5em",marginLeft:"4em"}}/></span></p>
 
              <p className='press_info'>"You got to come hungry to eat  <br/> <span className='break'>these udons!"</span> 
              <br/><span><img src ={NBC4} alt="logo"   style={{width:"4em",marginLeft:"4em"}}/></span></p>
 
              <p className='press_info'>"The texture of the noodles is far <br/> superior, bouncier, and chewier." 
-             <br/><span><img src ={Dumpling } alt="logo"   style={{width:"3em",marginLeft:"4em"}}/></span></p>
+             <br/><span><img src ={Dumpling } alt="logo"   style={{width:"4em",marginLeft:"4em"}}/></span></p>
         </div>
         </div>
  
