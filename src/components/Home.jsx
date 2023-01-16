@@ -20,19 +20,19 @@ function Home(){
             <img className="man-image"src={chef} alt="#" />
                 <p className='paragraph'><span className='title'>NORIHIRO ISHIZUKA</span> <br/>
                 <br/>
-             Chef Norihiro Ishizuka’s culinary journey began at the age<br/> of 
-             thirteen working at Kappo and udon restaurants to support his <br/>mother and
-              four other siblings. With over sixty years of culinary<br/> experience and several
-               accomplished restaurants under his belt, <br/>he brings to fruition his udon noodle 
-               concept: Raku. <br/>
+                    Chef Norihiro Ishizuka’s culinary journey began at the age<br/> of 
+                    Contrary to popular belief, Lorem Ipsum is not simply random <br/>mother and
+                    There are many variations of passages of Lorem Ipsum <br/>  passages, and more
+                    Contrary to popular belief, Lorem, <br/>Richard McClintock, a Latin professor at Hampden
+                    concept: Raku. <br/>
                     <br/>
-            In an homage to his home cooking, Ishizuka crafts a menu <br/>
-            centered around this iconic noodle long served as a classic <br/>
-            comfort food in Japan. Voluminous bowls of chewy silky noodles <br/>are
-             served in Ishizuka’s signature dashi soup. In addition to an <br/>extensive udon 
-             offering, Ishizuka also showcases an appetizer <br/>menu offering some of Japan’s 
-             most classic small bites. Offering<br/> a contemporary and minimalist dining space paired with 
-             warm <br/>service, he seeks to create happy memories for customers <br/>through his food.</p>
+                    It is a long established fact that a reader will be distracted by the <br/>
+                    All the Lorem Ipsum generators on the Internet tend to repeat  <br/>
+                    It uses a dictionary of over 200 Latin words, combined with a  <br/>are
+                    The generated Lorem Ipsum is therefooffering, Ishizuka also showcases an appetizer re always free <br/>extensive udon 
+                    Contrary to popular belief, Lorem Ipsum is  <br/>menu offering some of Japan’s 
+                    most classic small bites. Offering<br/> a contemporary and minimalist dining space paired with 
+                    warm <br/>service, he seeks to create happy memories for customers <br/>through his food.</p>
             </div>
 
         </div>
