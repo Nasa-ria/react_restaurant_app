@@ -2,18 +2,24 @@ import '../components/css/App.css'
 import map from "../images/map.webp"
 import chef from "../images/chef.png"
 import soho from "../images/Soho.webp"
-import Raku from "../images/Raku.webp"
+import  sushi from "../images/sushi.jpg"
 import Toronto from "../images/Toronto.webp"
 import yelp from "../images/Yelp.webp"
 import Eater from "../images/Eater.avif"
 import NBC4 from "../images/NBC4.webp"
 import Dumpling from "../images/Dumpling.webp";
+import photo from "../images/photo.jpg";
 
 
 
 function Home(){
     return(
         <>
+
+<div className='sec1' >
+        <img className="image"src={photo} alt="#" />
+ 
+        </div>
         <div className='about'>
             <h4 className="heading" >ABOUT</h4>
             <div className="flex">
@@ -91,18 +97,13 @@ function Home(){
            <p className='press_info'>"It is a long established fact that a reader <br/>will be distracted by the readable <br/>content of a page when looking at its  <br/><span className='break'>layout"</span> 
              <br/><span><img src ={Eater} alt="logo"   style={{width:"5em",marginLeft:"4em"}}/></span></p>
 
-             <p className='press_info'>"You got to come hungry to eat  <br/> <span className='break'>these udons!"</span> 
+             <p className='press_info'>" Lorem Ipsum as their default   <br/> <span className='break'>sometimes on purpose!"</span> 
              <br/><span><img src ={NBC4} alt="logo"   style={{width:"4em",marginLeft:"4em"}}/></span></p>
 
-             <p className='press_info'>"The texture of the noodles is far <br/> superior, bouncier, and chewier." 
+             <p className='press_info'>"The point of using Lorem Ipsum is  <br/> using 'Content here, content here'," 
              <br/><span><img src ={Dumpling } alt="logo"   style={{width:"4em",marginLeft:"4em"}}/></span></p>
         </div>
         </div>
- 
-     
-
-
-
         </>
              )
          }

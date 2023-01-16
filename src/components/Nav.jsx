@@ -37,10 +37,10 @@ function Nav(){
 
 </nav>
 
-<div className='sec1' >
+{/* <div className='sec1' >
         <img className="image"src={photo} alt="#" />
  
-        </div>
+        </div> */}
         </>
     )
 }

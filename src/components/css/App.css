@@ -41,11 +41,15 @@ text-decoration: none;
 }
 /* first section  */
 
-.image{
+.sec1{
+
+  	overflow-x: hidden;
+} 
+/* .image{
   max-width: 100%;
   height: 10%;
   /* object-fit: cover; */
-}
+/* } */ 
 /* second section */
 .man-image{
   max-width: 39em
