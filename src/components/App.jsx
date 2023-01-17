@@ -2,41 +2,43 @@
 import{BrowserRouter, Routes, Route} from "react-router-dom"
 import Home from "./Home"
 import Nav from "./Nav";
+import East from "./East";
 import Footer from "./Footer";
 
-// import {useState,useContext} from "react"
+
 
 
 function App() {
-    // const[auth,setAuth]=useState({})
+  
   
       return (
         <div>
         
            <BrowserRouter>
-             {/* <AuthContext.Provider value={{auth,setAuth}}> */}
+            
                     <Nav/>
       <main>
          
       
-        <div className="">
+        <header>
 
           
            <div>
 
-             {/* <div className="row"> */}
+        
              <Routes>
                <Route path="/" exact element={<Home/>}/>
+               <Route path="/menu/east" element={<East/>}/>
               </Routes>
               
              </div>
          
-          </div>
-        {/* </div> */}
+          </header>
+       
     
       </main>
         <Footer/>
-      {/* </AuthContext.Provider> */}
+     
       </BrowserRouter>
       
       </div>

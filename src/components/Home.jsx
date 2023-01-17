@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+import React from 'react'
 import '../components/css/App.css'
 import map from "../images/map.webp"
 import chef from "../images/chef.png"
@@ -17,8 +19,8 @@ function Home(){
         <>
 
 <div className='sec1' >
-        <img className="image"src={photo} alt="#" />
- 
+        {/* <img className="image"src={photo} alt="#" /> */}
+        <h3 className=' deco' >すし</h3>
         </div>
         <div className='about'>
             <h4 className="heading" >ABOUT</h4>
@@ -51,42 +53,56 @@ function Home(){
            <p className="info_image"> <img src={map} alt="#" style={{width:"39em",marginLeft:"14em", marginTop:"3em"}} /></p>
            <p className='info_address'><span className='topic'>EAST VILLAGE</span> <br/>342 E 6th St, Accra, GH, 10003<br/>(212) 228-1324<br/>eastvillage@suushi.com<br/><span className='change'>JOIN THE WAITLIST</span><br/>
                <br/>
-                Mon <span className='time'>Closed</span><br/>
-                Tue <span className='time'>12 - 9:30 pm</span><br/>
-                Wed <span className='time'>12 - 9:30 pm</span><br/>
-                Thu <span className='time'>12 - 9:30 pm</span> <br/>
-                Fri <span className='time'>12 - 9:30 pm</span> <br/>
-                Sat <span className='time'>12 - 9:30 pm</span><br/>
-                Sun <span className='time'>12 - 9:30 pm</span> 
+                
             </p>
            </div>
            <div className='info_details'>
             <img className="image_info"src={soho} alt="#"  style={{width:"39em",marginLeft:"14em", marginTop:"2em"}} />
-            <p className='info_address'><span className='topic'>NORTH VILLAGE</span> <br/>342 E 6th St, Accra, GH, 10003<br/>(212) 228-1324<br/>eastvillage@suushi.com<br/><span className='change'>RESERVATIONS</span><br/>
+            <p className='info_address'><span className='topic'> NORTH VILLAGE</span> <br/>342 E 6th St, Accra, GH, 10003<br/>(212) 228-1324<br/>eastvillage@suushi.com<br/><span className='change'>RESERVATIONS</span><br/>
                <br/>
-                Mon <span className='time'>Closed</span><br/>
-                Tue <span className='time'>12 - 9:30 pm</span><br/>
-                Wed <span className='time'>12 - 9:30 pm</span><br/>
-                Thu <span className='time'>12 - 9:30 pm</span> <br/>
-                Fri <span className='time'>12 - 9:30 pm</span> <br/>
-                Sat <span className='time'>12 - 9:30 pm</span><br/>
-                Sun <span className='time'>12 - 9:30 pm</span> 
+                
             </p>
            </div>
            <div className='info_details'>
             <img className="image_info"src={Toronto} alt="#"  style={{width:"39em",marginLeft:"14em", marginTop:"2em"}}/>
             <p className='info_address'><span className='topic'>WEST VILLAGE</span> <br/>342 E 6th St, Accra, GH, 10003<br/>(212) 228-1324<br/>eastvillage@suushi.com<br/><span className='change'>OPEN</span><br/>
                <br/>
-                Mon <span className='time'>Closed</span><br/>
-                Tue <span className='time'>12 - 9:30 pm</span><br/>
-                Wed <span className='time'>12 - 9:30 pm</span><br/>
-                Thu <span className='time'>12 - 9:30 pm</span> <br/>
-                Fri <span className='time'>12 - 9:30 pm</span> <br/>
-                Sat <span className='time'>12 - 9:30 pm</span><br/>
-                Sun <span className='time'>12 - 9:30 pm</span> 
-            </p>
-           </div>  
-        </div>
+               </p>
+           </div> 
+           
+           <hr/>
+           <div className='hours'>
+            <h5 >WORKING HOURS</h5>
+           <ul>
+            <li>
+            Mon  : Closed
+            </li>
+            <li> Tue - sun : 12 - 9:30 pm</li>
+                
+               
+             
+            </ul> 
+
+           </div>
+           
+           </div>
+       
+
+            <div className='menu'>
+                <h3 className='menu_topic'>MENU</h3>
+            <ul className='menu_item'>
+                <li>
+                  <h3> <Link to={"/menu/east"}>East Village</Link> </h3>  
+                </li>
+                <li>
+                    <h3> WEST VILLAGE </h3>
+                </li>
+                <li>
+                    <h3> NORTH VILLAGE </h3>
+                </li>
+            </ul>
+            </div>
+
 
         <div className='press'>
             <h3 className='press_topic'>PRESS</h3>

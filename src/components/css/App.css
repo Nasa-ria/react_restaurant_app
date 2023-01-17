@@ -5,7 +5,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	/* box-sizing: content-box; */
+	box-sizing: content-box;
 	/* overflow-x: hidden; */
   /* overflow-y: hidden ; */
 }
@@ -17,10 +17,12 @@ text-decoration: none;
   display: flex;
   align-items: center;
   
+  
 }
 .item{
   font-family: Maven Pro;
   font-weight: lighter;
+  /* gap: 5em; */
 }
 .nav-right{
   color: white;
@@ -44,12 +46,12 @@ text-decoration: none;
 .sec1{
 
   	overflow-x: hidden;
+    background-image: url(../../images/photo.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
 } 
-/* .image{
-  max-width: 100%;
-  height: 10%;
-  /* object-fit: cover; */
-/* } */ 
+
 /* second section */
 .man-image{
   max-width: 39em
@@ -65,25 +67,25 @@ text-decoration: none;
 
 }
 .flex{
-display: flex;
-flex-direction: row;
-gap: 3em;
-margin-left: 20em;
-margin-bottom: 2em;
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  margin-left: 20em;
+  margin-bottom: 2em;
 }
 .heading{
   display: flex;
   align-items: center;
-  margin-left: 12em;
+  margin-left: 13em;
   font-family:topic;
-  /* font-family: Lato,sans-serif; */
   font-size: 50px;
   margin-bottom: 1em;
+  font-family: Aboreto;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   font-weight:lighter;
-  padding-bottom: 5px;
   text-underline-offset: 10px;
+  margin-top: 1em;
 }
 .title{
 font-weight: bold;
@@ -97,9 +99,6 @@ letter-spacing: 0.1em;
   background-image: url(../../images/Raku.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-
-
 } 
 
 .info_heading{
@@ -130,7 +129,7 @@ letter-spacing: 0.1em;
 }
 .info_address{
 color: white;
-margin-top: 3.5em;
+margin-top: 9em;
 font-size: 14px;
 }
 .topic{
@@ -145,6 +144,15 @@ font-size: 14px;
   color:rgb(88, 85, 85);
   margin-left: 2em;
 }
+
+.hours{
+  margin-left:40em;
+  margin-top: 1em;
+  color: white;
+  /* margin-bottom: 3em; */
+}
+
+
 /* press */
 .press_info{
   font-size: 26px;
@@ -154,6 +162,7 @@ font-size: 14px;
 }
 .press{
  margin-top: 7em;
+ margin-bottom: 10em;
 }
 .press_notes{
   width: 59em;
@@ -170,11 +179,38 @@ font-size: 14px;
    text-underline-offset: 10px;
   font-family:Aboreto ;
   margin-bottom: 2em;
-  margin-left: 27em;
+  margin-left: 25em;
 
 }
-/* footer */
-.f{
-  color: azure;
-}
 
+
+/* menu */
+.menu_topic{
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  font-weight:lighter;
+  padding-bottom: 5px;
+  text-underline-offset: 10px;
+  margin-left :25em;
+  /* color: white; */
+}
+.menu{
+  margin-top: 2em;
+}
+.menu_item{
+  margin-left :25em;
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+  margin-top: 2em;
+  list-style-type:armenian;
+}
+/* deco */
+.deco{
+  margin: 20em;
+  column-count: 4;
+  margin-left: 30em;
+  font-family: meiryo, sans-serif;
+
+
+}

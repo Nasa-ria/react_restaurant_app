@@ -3,20 +3,16 @@
 function Footer(){
     return(
         <>
-     
-     <footer class="footer  fixed-bottom bg-dark ">
-     <div class="d-flex flex-wrap justify-content-between align-items-center ">
-    <div >
-      <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
-    </div>
-    <ul class="nav col-md-2 justify-content-end list-unstyled d-flex gap-3 ">
-    <i class="bi bi-facebook" style={{color:"white"}}></i> 
-    <i class="bi bi-instagram" style={{color:"white"}}></i>
- 
+    <div className="container  ">
+  <footer className="py-3 my-4">
+    <ul className="nav justify-content-center   justify-content-evenly border-bottom pb-3 mb-3 ">
+    <i class="bi bi-facebook" ></i> 
+    <i class="bi bi-instagram" ></i>
+    <i class="bi bi-twitter" ></i>
     </ul>
-  </div>
-
-    </footer> 
+    <p className="text-center text-muted">&copy; 2022 Company, Inc</p>
+  </footer>
+</div>
 
 
         </>

@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 import React from 'react'
 import '../components/css/App.css'
-import photo from "../images/photo.jpg";
+
 
 function Nav(){
     return(
@@ -13,7 +13,7 @@ function Nav(){
 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
 <span className="navbar-toggler-icon"></span>
 </button>
-    <div className='list-center'>
+    <div className='list-center '>
 <ul className="navbar-nav pl-md-5 ml-auto">
 <li className="item">
 <a className="nav-link active" href='#' ><Link  className=" link"to={"#"}>INFO </Link></a>
@@ -36,11 +36,6 @@ function Nav(){
 </div>
 
 </nav>
-
-{/* <div className='sec1' >
-        <img className="image"src={photo} alt="#" />
- 
-        </div> */}
         </>
     )
 }
