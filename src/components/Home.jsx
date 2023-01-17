@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import React from 'react'
+import{React,useRef }from 'react'
 import '../components/css/App.css'
 import map from "../images/map.webp"
 import chef from "../images/chef.png"
@@ -15,6 +15,8 @@ import photo from "../images/photo.jpg";
 
 
 function Home(){
+    const info_section = useRef(null);
+
     return(
         <>
 
@@ -45,7 +47,7 @@ function Home(){
 
         </div>
 
-         <div className='info_section'>
+         <div className='info_section' ref={info_section}>
             <p className='info_heading'>INFO </p>
             <p className='info_supheading'><em>please check the Yelp or Google listings for any holiday closures</em> </p>
            
