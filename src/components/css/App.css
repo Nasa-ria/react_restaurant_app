@@ -211,6 +211,12 @@ font-size: 14px;
   column-count: 4;
   margin-left: 30em;
   font-family: meiryo, sans-serif;
+}
 
-
+/* menu page */
+.menu_image{
+  margin-left: 27em;
+}
+.menu-topic{
+  color: black;
 }

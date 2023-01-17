@@ -18,7 +18,7 @@ function Home(){
     return(
         <>
 
-<div className='sec1' >
+        <div className='sec1' >
         {/* <img className="image"src={photo} alt="#" /> */}
         <h3 className=' deco' >すし</h3>
         </div>
@@ -95,10 +95,10 @@ function Home(){
                   <h3> <Link to={"/menu/east"}>East Village</Link> </h3>  
                 </li>
                 <li>
-                    <h3> WEST VILLAGE </h3>
+                    <h3><Link to={"/menu/east"}>WEST VILLAGE</Link>   </h3>
                 </li>
                 <li>
-                    <h3> NORTH VILLAGE </h3>
+                    <h3><Link to={"/menu/east"}>NORTH VILLAGE</Link>   </h3>
                 </li>
             </ul>
             </div>

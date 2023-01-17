@@ -24,13 +24,10 @@ function App() {
 
           
            <div>
-
-        
              <Routes>
                <Route path="/" exact element={<Home/>}/>
                <Route path="/menu/east" element={<East/>}/>
               </Routes>
-              
              </div>
          
           </header>
