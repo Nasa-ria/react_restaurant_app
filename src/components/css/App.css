@@ -216,6 +216,16 @@ font-size: 14px;
 .menu_image{
   margin-left: 27em;
 }
-.menu-topic{
+.eastlist{
   color: black;
+   margin-left: 24em;
+   text-decoration: underline;
+   text-decoration-thickness: 1px;
+   font-weight:lighter;
+   /* padding-bottom: 5px; */
+   text-underline-offset: 10px;
+   
+}
+.main{
+  margin-top: 5rem;
 }

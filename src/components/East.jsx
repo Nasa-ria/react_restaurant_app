@@ -7,17 +7,18 @@ import ev_menu5 from "../images/ev_menu5.webp"
 
 function East() {
     return  (
-    <>
-    <Link to={"/"}>Home</Link>
-        <h3 className='list'>MENU</h3>
-        {/* <div className="menu_image">
+     <div className="main">
+       <Link to={"/"}>  </Link>
+       <h3 className='eastlist' >MENU</h3>
+        <div className="menu_image">
+  
             <img src={ev_menu2} alt="#" style={{width:"39em"}}/>
             <img src={ev_menu3} alt="#" style={{width:"39em"}}/>
             <img src={ev_menu4} alt="#" style={{width:"39em"}}/>
             <img src={ev_menu5} alt="#" style={{width:"39em"}}/>
-        </div> */}
+        </div>
 
-     </>
+     </div>
     
     )
         
