@@ -20,17 +20,17 @@ function App() {
       <main>
          
       
-        <header>
+        {/* <header> */}
 
           
-           <div>
+           {/* <div> */}
              <Routes>
                <Route path="/" exact element={<Home/>}/>
                <Route path="/menu/east" element={<East/>}/>
               </Routes>
-             </div>
+             {/* </div> */}
          
-          </header>
+          {/* </header> */}
        
     
       </main>

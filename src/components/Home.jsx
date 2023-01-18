@@ -4,18 +4,17 @@ import '../components/css/App.css'
 import map from "../images/map.webp"
 import chef from "../images/chef.png"
 import soho from "../images/Soho.webp"
-import  sushi from "../images/sushi.jpg"
 import Toronto from "../images/Toronto.webp"
 import yelp from "../images/Yelp.webp"
 import Eater from "../images/Eater.avif"
 import NBC4 from "../images/NBC4.webp"
 import Dumpling from "../images/Dumpling.webp";
-import photo from "../images/photo.jpg";
+
 
 
 
 function Home(){
-    const info_section = useRef(null);
+    // const info_section = useRef(null);
 
     return(
         <>
@@ -24,7 +23,8 @@ function Home(){
         {/* <img className="image"src={photo} alt="#" /> */}
         <h3 className=' deco' >すし</h3>
         </div>
-        <div className='about'>
+
+        <section className='about' id='about'>
             <h4 className="heading" >ABOUT</h4>
             <div className="flex">
             <img className="man-image"src={chef} alt="#" />
@@ -44,10 +44,10 @@ function Home(){
                     most classic small bites. Offering<br/> a contemporary and minimalist dining space paired with 
                     warm <br/>service, he seeks to create happy memories for customers <br/>through his food.</p>
             </div>
+        </section>
+       
 
-        </div>
-
-         <div className='info_section' ref={info_section}>
+         <section className='info_section'  id="info">
             <p className='info_heading'>INFO </p>
             <p className='info_supheading'><em>please check the Yelp or Google listings for any holiday closures</em> </p>
            
@@ -87,10 +87,11 @@ function Home(){
 
            </div>
            
-           </div>
-       
+           </section>
 
-            <div className='menu'>
+                <section id='menu'>
+
+            <div className='menu' >
                 <h3 className='menu_topic'>MENU</h3>
             <ul className='menu_item'>
                 <li>
@@ -105,8 +106,9 @@ function Home(){
             </ul>
             </div>
 
+            </section>
 
-        <div className='press'>
+        <section className='press' id='press'>
             <h3 className='press_topic'>PRESS</h3>
             <div className='press_notes'>
             <p className='press_info'>"Lorem Ipsum has been the<br/> <span className='break'>industry's standard  "</span>
@@ -121,7 +123,7 @@ function Home(){
              <p className='press_info'>"The point of using Lorem Ipsum is  <br/> using 'Content here, content here'," 
              <br/><span><img src ={Dumpling } alt="logo"   style={{width:"4em",marginLeft:"4em"}}/></span></p>
         </div>
-        </div>
+        </section >
         </>
              )
          }
