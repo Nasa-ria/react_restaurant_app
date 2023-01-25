@@ -25,6 +25,8 @@ function Home(){
         </div>
 
         <section className='about' id='about'>
+            <div>
+
             <h4 className="heading" >ABOUT</h4>
             <div className="flex">
             <img className="man-image"src={chef} alt="#" />
@@ -44,6 +46,9 @@ function Home(){
                     most classic small bites. Offering<br/> a contemporary and minimalist dining space paired with 
                     warm <br/>service, he seeks to create happy memories for customers <br/>through his food.</p>
             </div>
+
+            </div>
+            
         </section>
        
 

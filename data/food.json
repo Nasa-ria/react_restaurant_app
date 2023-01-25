@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "title":"sushi",
+        "image":"https://unsplash.com/photos/Dbx6-XZY6Dg",
+        "price":23.6
+    
+    },
+    {
+        "id":2,
+        "title":"noodles",
+        "image":"https://unsplash.com/photos/hjCA3ecCXAQ",
+        "price":412.0
+    
+    },
+    {
+        "id":3,
+        "title":"sushi",
+        "image":"https://unsplash.com/photos/SdS_XZ2CBqo",
+        "price":12.67
+    
+    }
+]
