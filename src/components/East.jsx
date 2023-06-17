@@ -8,8 +8,8 @@ import ev_menu5 from "../images/ev_menu5.webp"
 function East() {
     return  (
      <div className="main">
-       <Link to={"/"}>  </Link>
-       <h3 className='eastlist' >MENU</h3>
+       <Link to={"/"} className="back"> Back </Link>
+       <h3 className='eastlist ' >MENU</h3>
         <div className="menu_image">
   
             <img src={ev_menu2} alt="#" style={{width:"39em"}}/>

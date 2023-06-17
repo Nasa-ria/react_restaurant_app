@@ -10,7 +10,7 @@ function Footer(){
     <i className="bi bi-instagram" ></i>
     <i className="bi bi-twitter" ></i>
     </ul>
-    <p className="text-center text-muted">&copy; 2022 Company, Inc</p>
+    <p className="text-center text-muted">&copy; 2023 Nasaria, Inc</p>
   </footer>
 </div>
 
